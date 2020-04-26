@@ -10,7 +10,7 @@ tags:
   - R Markdown
   - NC
 subtitle: 'Visualizing ADI Score in NC'
-summary: ''
+summary: 'We are going to be reading in Census data, the shapefile for NC, and the Area Deprivation Index (ADI) scores (created by University of Wisconsin) and build a map for the general service area of Cone Health.'
 authors: []
 lastmod: '2020-04-26T17:24:55-04:00'
 featured: no
@@ -26,6 +26,7 @@ output:
     toc: true
     toc_float: true
 ---
+
 
 
 
@@ -117,21 +118,6 @@ popup_sb <- paste(
   "Block Group: ", BL_ADI@data$NAMELSAD, 
   sep="") %>%
   lapply(htmltools::HTML)
-
-
-
-leaflet(BL_ADI) %>%
-  addTiles() %>%
-  # setView(-98.483330, 38.712046, zoom = 4) %>% 
-  addPolygons(fillColor = ~pal(BL_ADI$adi_staternk), 
-              fillOpacity = 0.7, 
-              weight = 0.2, 
-              smoothFactor = 0.2, 
-              popup = ~popup_sb) %>%
-  addLegend(pal = pal, 
-            values = BL_ADI$adi_staternk, 
-            position = "bottomright", 
-            title = "ADI State Rank")
 
 
 qpal <- colorQuantile("Blues", BL_ADI_POP@data$estimate, n = 7)

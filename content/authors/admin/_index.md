@@ -44,3 +44,5 @@ Phil Walker is still working on writing out everything he wants for this website
 I like playing ultimate frisbee, exploring the beautiful world around me, and learning through data.
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate.
+
+Here is an example of linking to a more interactive version of rmarkdown: [rmd-blog/2020-04-26-adi-choropleth.html](rmd-blog/2020-04-26-adi-choropleth.html)
