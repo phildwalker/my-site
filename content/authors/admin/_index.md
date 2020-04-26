@@ -5,7 +5,7 @@ bio: I am interested with collabations which drive improvements in the daily liv
   matter.
 education:
   courses:
-  - course: MS Engineerng
+  - course: MS Engineerng, Integrated Technology Management
     institution: Cal Poly - SLO
     year: 2012
   - course: BS Industrial Engineering
@@ -41,6 +41,6 @@ _Contained within are my thoughts, musing, and opportunities I have taken to pla
 
 Phil Walker is still working on writing out everything he wants for this website. At this time, this will serve as buffer text. Want to write about my work ethic and goals for what is coming next.
 
-I like playing Ultimate frisbee, exploring the beautiful world around me, and learning through data.
+I like playing ultimate frisbee, exploring the beautiful world around me, and learning through data.
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate.
