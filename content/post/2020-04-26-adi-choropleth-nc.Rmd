@@ -1,6 +1,6 @@
 ---
 title: 'ADI Choropleth NC '
-author: admin
+author: P. Walker
 date: '2020-04-26'
 slug: adi-choropleth-nc
 categories:
@@ -19,18 +19,24 @@ image:
   focal_point: ''
   preview_only: no
 projects: []
+output:
+  html_document:
+    df_print: paged
+    code_folding: hide
+    toc: true
+    toc_float: true
 ---
 
 
 
-```{r library}
+```{r library, echo=FALSE, include=FALSE}
 library(tidyverse)
 library(tigris)
 library(leaflet)
 
 ```
 
-Reading in the data
+# Reading in the data
 
 ```{r}
 
@@ -54,7 +60,7 @@ ADI <- read_csv(here::here("content", "post", "2020-04-26-adi-NC", "NC_blockgrou
 
 ```
 
-Data cleaning
+# Data cleaning
 
 ```{r}
 
@@ -87,7 +93,6 @@ BL_ADI_POP <- geo_join(BL_ADI, bg_pop, 'GEOID', 'GEOID', how = 'left')
 BL_ADI_POP@data %>% 
   ggplot( aes(estimate)) + 
   geom_histogram(bins = 10) +
-  geom_
   xlab("Population Estimate") + 
   # scale_x_continuous(breaks = seq(0,10,1), labels = seq(0,10,1)) +
   theme_bw()  
@@ -96,7 +101,7 @@ BL_ADI_POP@data %>%
 
 
 
-Make a map
+# Make a map
 
 ```{r}
 
