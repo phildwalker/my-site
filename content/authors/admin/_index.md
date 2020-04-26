@@ -40,9 +40,6 @@ user_groups:
 _Contained within are my thoughts, musing, and opportunities I have taken to play with data to better understand the world around me. If you have any questions or want to talk further about any of the topics I touch upon please feel free to reach out to me on any of the mediums listed below._
 
 Phil Walker is still working on writing out everything he wants for this website. At this time, this will serve as buffer text. Want to write about my work ethic and goals for what is coming next.
-
+ 
 I like playing ultimate frisbee, exploring the beautiful world around me, and learning through data.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate.
-
-Here is an example of linking to a more interactive version of rmarkdown: [rmd-blog/2020-04-26-adi-choropleth.html](rmd-blog/2020-04-26-adi-choropleth.html)
